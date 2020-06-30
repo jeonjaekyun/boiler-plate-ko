@@ -84,10 +84,10 @@ app.get('/api/users/auth', auth , (req,res)=>{
         name:user.name,
         email:user.email,
         lastname:user.lastname,
-        role: user.role === 0 ? false : true,
-        image: user.image,
-        token:user.token,
-        tokenExp:user.tokenExp
+        isAdmin: user.role === 0 ? false : true,
+        isAuth:true,
+        role:user.role,
+        image: user.image
     });
 });
 
