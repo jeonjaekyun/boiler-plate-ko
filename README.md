@@ -23,15 +23,25 @@
     - setupProxy.js
 
 [- server](#2-server)
+
   [- config](#21-config)
-    [- key.js](#211-key.js)
+  
+    [- key.js](#211-keyjs)
+    
     [- db.js](#212-db.js)
-    [- prod.js](#213-prod.js)
+    
+    [- prod.js](#213-prodjs)
+    
   [- middlewares](#22-middlewares)
-    [- auth.js](#221-auth.js)
+  
+    [- auth.js](#221-authjs)
+    
   [- models](#23-models)
-    [- User.js](#231-user.js)
-  [- index.js](#24-index.js)
+  
+    [- User.js](#231-userjs)
+    
+  [- index.js](#24-indexjs)
+  
   
   ### 1. client
   
