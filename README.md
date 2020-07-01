@@ -35,7 +35,7 @@
   ### 1. client\src
   frontend는 react를 바탕으로 구현
   
-  #### 1.1 indes.js
+  #### 1.1 index.js
   - App.js를 렌더링하는 가장 상위 파일
   - Provider(from 'react-redux')를 통해 App.js에서 사용하는 store를 지정해줄 수 있다.
   - store = createStore(Reducer)
