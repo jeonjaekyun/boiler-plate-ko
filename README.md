@@ -1,7 +1,7 @@
 # boiler-plate-ko
 
 ## 파일 구조도
-- [client\src](#1-client\src)
+- [client\src](#1-clientsrc)
    - [index.js](#11-indexjs)
    - [App.js](#12-appjs)
    - [setupProxy.js](#13-setupProcxyjs)
@@ -11,7 +11,7 @@
    - [_actions](#15-_actions)
      - [type.js](#151-typejs)
      - [user_action.js](#152-user_actionjs)
-   - [components\views](#16-components\views)
+   - [components\views](#16-componentsviews)
      - LandingPage
        - [LandingPage.js](#161-LandingPagejs)
      - LoginPage
