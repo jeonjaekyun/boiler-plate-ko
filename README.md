@@ -1,7 +1,7 @@
 # boiler-plate-ko
 
 ## 파일 구조도
-[- client](#1.client)
+[- client](#client)
   - src
     - _actions
       - type.js
@@ -22,7 +22,7 @@
     - App.js
     - setupProxy.js
 
-[- server](#2.server)
+[- server](#server)
   - config
     - db.js
     - dev.js
@@ -34,6 +34,6 @@
     -User.js
   - index.js
   
-  ### 1.client
+  ### client
   
-  ### 2.server
+  ### server
