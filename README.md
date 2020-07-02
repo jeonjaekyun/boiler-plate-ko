@@ -102,7 +102,12 @@
   
   #### 1.7 hoc
   - Higher Order Component
-  - 
+    - 여러 Component에서 사용하는 함수를 정의 하는 것
+    
+  ##### 1.7.1 auth.js
+  - LandingPage, LoginPage, RegisterPage 등의 component에서 함께 사용하는 인증 관련 함수를 정의해둔 코드
+  - App.js에서 각 component를 auth(spcificComponent, option, adminRoute)에 감싸주서 작성한다.
+  - option과 adminRoute를 조합하여 로그인 유무/ 관리자 계정을 구분하여 각 component에 맞는 로직을 수행한다.
   
   ### 2. server
   backend는 nodejs를 바탕으로 expressjs 프레임워크를 통해서 구현
